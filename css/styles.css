@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li, a {
+    color: #2E2F42;
+}
+nav span {
+    color: #4D5AE5;
+}
+
+address li {
+    color: #2E2F42;
+}
+
+.hero {
+    background-color: #2E2F42;
+    height: 600px;
+}
+
+.hero h1 {
+    color:#FFFFFF;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
+.hero button {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    width: 169px;
+    height: 56px;
+}
