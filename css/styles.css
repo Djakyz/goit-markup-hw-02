@@ -69,3 +69,15 @@ address li {
     width: 169px;
     height: 56px;
 }
+
+footer a {
+    color: #F4F4FD;
+}
+
+footer>a {
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #4D5AE5;
+}
