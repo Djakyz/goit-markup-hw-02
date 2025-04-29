@@ -11,19 +11,34 @@ h2 {
     color: #2E2F42;
 }
 
-h3 {
+.section_title {
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    font-weight: 500;
     color: #2E2F42;
 }
 
-p {
+.section_text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
 
+.team {
+    background-color: #F4F4FD;
+}
+
+.section_title_big {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.team_li {
+    background-color: #FFFFFF;
 }
 
 a {
@@ -34,50 +49,98 @@ ul {
     list-style-type: none;
 }
 
-nav li, a {
+nav li, a .header_menu {
     color: #2E2F42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-nav>a {
+nav li,
+a .header_menu:hover {
+    color: #404bbf;
+}
+
+nav li,
+a .header_menu:focus {
+color: #404bbf;
+}
+
+nav>a .logo {
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #434455;
 }
 
-nav span {
-    color: #4D5AE5;
+nav span .header_logo {
+    color: #2e2f42;
+}
+
+.header_address {
+    font-style: normal;
+}
+
+.header_address>a .address_link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header_address>a .address_link:hover {
+    color: #404bbf;
+}
+
+.header_address>a .address_link:focus {
+    color: #404bbf;
 }
 
 address li {
     color: #2E2F42;
 }
 
+
+
 .hero {
     background-color: #2E2F42;
-    height: 600px;
 }
 
-.hero h1 {
+.hero_title {
     color:#FFFFFF;
     font-size: 56px;
-    font-weight: bold;
-    line-height: 1.2;
+    text-align: center;
+    line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
-.hero button {
+.hero_button {
     color: #FFFFFF;
     background-color: #4D5AE5;
-    width: 169px;
-    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-footer a {
-    color: #F4F4FD;
+.hero_button:hover {
+    color: #404bbf;
 }
 
-footer>a {
-    text-transform: uppercase;
+.hero_button:focus {
+    color: #404bbf;
 }
 
-footer span {
-    color: #4D5AE5;
+.footer {
+background-color: #2E2F42;
+}
+
+.footer_text {
+    color:#F4F4FD;
+}
+
+.footer_logo {
+    color: #f4f4fd;
 }
