@@ -124,11 +124,11 @@ address li {
 }
 
 .hero_button:hover {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .hero_button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .footer {
